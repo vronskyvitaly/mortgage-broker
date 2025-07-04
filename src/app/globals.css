@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.speech-bubble {
+  @apply relative bg-white p-2 rounded-xl shadow-lg border-2 border-white max-w-[220px] sm:max-w-sm text-left;
+}
+
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -12px;
+  left: 30px;
+  border-width: 8px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+@media (min-width: 640px) {
+  .speech-bubble::after {
+    left: 40px;
+  }
+}
+
