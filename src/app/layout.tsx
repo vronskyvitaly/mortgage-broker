@@ -47,8 +47,7 @@ export const metadata: Metadata = {
     locale: 'ru_RU',
     type: 'website'
   },
-  // todo: добавить адрес сайта
-  authors: [{ name: 'Ангелина Крукович', url: 'https://ipoteka-broker.ru' }],
+  authors: [{ name: 'Ангелина Крукович', url: 'https://mortgage-broker-murex.vercel.app/' }],
   creator: 'Ангелина Крукович',
   publisher: 'Ангелина Крукович',
   robots: 'index, follow'
